@@ -1,0 +1,146 @@
+/*********************** style généraux ********************/
+/** bounton Override **/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    /*background-color: #bd8282;*/
+}
+
+#test{
+    height:125px;
+    width: 180px;
+}
+/** banniere **/ 
+.banner{
+    width: 100%;
+    max-width: 100%;
+}
+
+.ban{
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.ban img{
+    width: 100%;
+    max-width: 100%;
+}
+
+
+.inner-banner{
+    position: inherit;
+    top: 15%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.inner-banner h5{
+    color: #ffffff;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    border-radius: 0;
+    font-size: 18px;
+}
+
+/** footer **/
+footer{
+    clear: both;
+    color: #0653AB;
+    padding-top: 1%;
+    text-align: center;
+    font-size: 14px;
+}
+
+/** header **/
+.fly-in-text{
+    list-style: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.fly-in-text li{
+    display: inline-block;
+    color: #fff;
+    margin-right: 50px;
+    font-family: Open Sans, Arial;
+    font-weight: 300;
+    font-size: 2em;
+}
+
+/** container-fluid **/
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/** Navigation Menu **/
+.navbar{
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #5E4485;
+    color: #FFF;
+    padding: 1% 0;
+    font-size: 1.2em;
+    border: 0;
+}
+
+.navbar-brand{
+    margin-left: 25px;
+}
+
+.navbar-nav{
+    float: left;
+}
+
+.navbar-nav li a{
+    padding: 10px;
+}
+
+.navbar-nav li:hover{
+    background: rgba(0,0,0,0.3);
+}
+
+.navbar-expand-md .navbar-nav .nav-link{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+/*** ACCUEIL **/
+.titre{
+    font-size: 24px;
+    padding-top: 15px;
+}
+
+h5{
+    color:#f0ad4e;
+}
+
+
+
+
+/* global css */
+a, a:hover{
+    text-decoration: none;
+}
+
+.inner-banner a{
+    color: #ffffff;
+}
+
+.inner-banner a:hover{
+    color: #ffffff;
+}
+
